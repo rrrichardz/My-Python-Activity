@@ -6,3 +6,5 @@
 # My second code files added 27/03/2022 - Practical Activity 1.2.7
 
 # Added another activity on 28/03/2022 - Practical Activity 1.3.5
+
+# Peer review activity added 28/03/2022 - cleaning messy data not following PEP 8 guidelines
