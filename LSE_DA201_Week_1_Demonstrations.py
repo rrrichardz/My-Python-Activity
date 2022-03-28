@@ -1536,78 +1536,367 @@ for i in cars:
         break
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # ### 1.3 Python libraries and reproducibility of code
 
+# ### 1.3.2 Objects and classes in Python
+
+# In[3]:
+
+
+class Person:
+    def __init__(self, name, age, language):
+        self.name = name
+        self.age = age
+        self.language = language
+    def introduce(self):
+        print(f'Hello my name is {self.name}, I\'m {self.age} years old and I speak {self.language}.')
+        
+person_object = Person('Richard', '25', 'Chinese')
+person_object.introduce()
+
+
+# In[6]:
+
+
+class Person:
+    def __init__(self, name, age, language, city):
+        self.name = name
+        self.age = age
+        self.language = language
+        self.city = city
+    def introduce(self):
+        print(f'Hello my name is {self.name}, I\'m {self.age} years old, I speak {self.language} and I live in {self.city}.')
+        
+person_object = Person('Richard', '25', 'Chinese', 'London')
+person_object.introduce()
+
+person_object_2 = Person('Paul', '73', 'English', 'London')
+person_object_3 = Person('Kira Yamato', '17', 'Japanese', 'P.L.A.N.T.')
+person_object_4 = Person('Joseph', '17', 'Chinese', 'Shenzhen')
+
+person_object_2.introduce()
+person_object_3.introduce()
+person_object_4.introduce()
+
+
+
+# ### The hasattr() function
+
+# In[7]:
+
+
+class Person:
+    name = 'Richard'
+    age = '25'
+    
+x = hasattr(Person, 'age')
+print(x)
+
+
+# In[8]:
+
+
+class Person:
+    name = 'Richard'
+    
+x = hasattr(Person, 'age')
+print(x)
+
+
+# ### The getattr() function
+
+# In[9]:
+
+
+class Person:
+    name = 'Richard'
+    age = '25'
+    
+x = getattr(Person, 'age')
+print(x)
+
+
+# In[11]:
+
+
+class Person:
+    name = 'Richard'
+    
+x = getattr(Person, 'age')
+print(x)
+
+
+# ### The setattr() function
+
+# In[12]:
+
+
+class Person:
+    name = 'Richard'
+    age = '25'
+    
+setattr(Person, 'age', 35)
+
+x = getattr(Person, 'age')
+print(x)
+
+
+# ### The delattr() function
+
+# In[13]:
+
+
+class Person:
+    name = 'Richard'
+    age = '25'
+    
+delattr(Person, 'age')
+
+x = getattr(Person, 'age')
+print(x)
+
+
+# ### Inheritance
+
+# In[14]:
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def introduce(self):
+        print(f'Hello my name is {self.name} and I\'m {self.age} years old.')
+
+class Student(Person):
+    pass
+
+person_object = Student('Richard', '25')
+person_object.introduce()
+
+
+# In[16]:
+
+
+class Weather:
+    def __init__(self, temperature, wind_speed, wind_direction):
+        self.temp = temperature
+        self.wspeed = wind_speed
+        self.wdirec = wind_direction
+    def introduce(self):
+        print(f'Hello! The weather today is {self.temp}, {self.wspeed} and {self.wdirec}.')
+        
+person_object = Weather('30 degrees Celsius', '30 km/h', 'SSE')
+person_object.introduce()
+
+
+# ### The DateTime Module
+
+# ### Date class
+
 # In[ ]:
 
 
+# printing a specific date
+import datetime
+d = datetime.date(2022, 3, 28)
+
+print(d)
+print(type(d))
 
 
+# ### Date class: specific class
 
-# In[ ]:
-
-
-
+# In[19]:
 
 
-# In[ ]:
+# import the datetime module and date class
+from datetime import date
+
+d = date(2022, 3, 28)
+print(d)
+print(type(d))
 
 
+# In[22]:
 
 
-
-# In[ ]:
-
-
+x = datetime.datetime.now()
+print(x)
 
 
+# ### Date class: daily data
 
-# In[ ]:
-
-
-
+# In[24]:
 
 
-# In[ ]:
+#printing current year, month and day
+from datetime import date
+#date object of today's date
+today = date.today()
+
+print("Current year:", today.year)
+print("Current month:", today.month)
+print("Current day:", today.day)
 
 
+# In[25]:
 
+
+#printing current year, month and day
+from datetime import date
+#date object of today's date
+today = date.today()
+
+print("Current year:", today.year)
+print("Current month:", today.month)
+
+
+# ### Time class
+
+# In[27]:
+
+
+# import module
+from datetime import time
+
+#Creating a time object
+#time(hour, minute, second, microsecond) 
+t = time(1, 23, 45, 67890) 
+
+print("time =",t)
+
+
+# In[32]:
+
+
+# creating a time object
+# time (hour, minute, second, microsecond) 
+t = time (6, 45, 25, 234566)
+
+print("hour =", t.hour)
+print("minute =", t.minute)
+print("second =", t.second)
+print("microsecond =", t.microsecond)
+
+
+# ### DateTime class
+
+# In[36]:
+
+
+# import module and class
+from datetime import datetime
+
+t = datetime(2022, 3, 28, 20, 31, 50, 123456)
+print("year =", t.year)
+print("month =", t.month)
+print("day =", t.day)
+print("hour =", t.hour)
+print("minute =", t.minute)
+print("seconds =", t.second)
+print("micro seconds =", t.microsecond)
+
+print("The date and time is =", t)
+
+
+# ### Timedelta class
+
+# In[37]:
+
+
+from datetime import datetime, date
+# you can import more than one class or object at a time from a module
+
+t1 = datetime(year=2021, month=12, day=15, hour=5, minute=45, second=25)
+t2 = datetime(year=2019, month=10, day=28, hour=12, minute=55, second=13)
+t3 = t1 - t2
+print("time difference =", t3)
+print("type of t3 =", type(t3))
+
+
+# In[38]:
+
+
+t1 = datetime(year=2021, month=12, day=15, hour= 5, minute=45, second=25)
+t2 = datetime(year=2019, month=10, day=28, hour= 12, minute=55, second=13)
+t3 = t1 - t2
+
+print("time difference in seconds =", t3.total_seconds())
+print("type of t3 =", type(t3))
+
+
+# ### Formatting dates
+
+# ### strftime()
+
+# In[45]:
+
+
+# current date and time 
+now = datetime.now()
+print('Current Time', now)
+
+# Using strftime to only print hours, minutes and seconds 
+t = now.strftime("%H:%M:%S")
+print("Time with only hours, minutes and seconds", t)
+
+# Changing the separators: 
+t1 = now.strftime("%m/%d/%Y")
+# mm/dd/YY format
+print("Date with / seperators:", t1)
+
+
+# ### strptime()
+
+# In[46]:
+
+
+date_string = "30 October 2021"#
+
+print("date_string=", date_string)
+print("Data type of date-string -->" , type(date_string))
+
+
+# In[47]:
+
+
+#this is the date format
+date_object = datetime.strptime(date_string, "%d %B %Y")
+
+print("date_object =", date_object) 
+print("Datatype of the date_string after formating with strptime -->",
+      type(date_object))
+
+
+# ### Formatting demonstration
+
+# In[55]:
+
+
+# import modules and classes
+import datetime 
+from datetime import datetime, date 
+import pytz
+
+local = datetime.now()
+print("Local:", local.strftime ("%d/%m/%Y, %H:%M:%S"))
+
+#Here, datetime_NY and datetime_London are datetime objects containing the 
+#current date and time of their respective time zones.
+tz_NY = pytz.timezone('America/New_York')
+datetime_NY = datetime.now(tz_NY)
+print("NY:", datetime_NY.strftime("%d/%m/%Y, %H:%M:%S"))
+
+tz_London = pytz.timezone('Europe/London') 
+datetime_London = datetime.now(tz_London)
+print("London:", datetime_London.strftime ("%d/%m/%Y, %H:%M:%S"))
+
+
+# In[59]:
+
+
+import this
 
 
 # In[ ]:
