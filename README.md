@@ -13,4 +13,8 @@
 # Peer review activity added 28/03/2022 - cleaning messy data not following PEP 8 guidelines
 
 ### Week 2 files
-# Practical Activity 
+# Practical Activity added 29/03/2022 - 2.1.3
+
+# Practical Activity added 29/03/2022 - 2.1.5
+
+# Practical Activity added 30/03/2022 - 2.1.10
