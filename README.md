@@ -13,6 +13,9 @@
 ### Peer review activity added 28/03/2022 - cleaning messy data not following PEP 8 guidelines
 
 # Week 2 files
+
+#### (Week 2 data files: gold_stocks_price.csv, movies.xlsx, oil_price.csv, ott.csv)
+
 ### Practical Activity added 29/03/2022 - 2.1.3
 
 ### Practical Activity added 29/03/2022 - 2.1.5
