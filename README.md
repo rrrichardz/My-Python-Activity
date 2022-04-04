@@ -25,4 +25,6 @@
 
 ### Practical Activity added 04/04/2022 - 2.3.6
 
+### Week 2 Challenge added 04/04/2022 - Challenge Activity
+
 ### Week 2 core practice and demonstrations file added 04/04/2022
