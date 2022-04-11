@@ -27,3 +27,7 @@
 ### Practical Activity added 08/04/2022 - 3.1.7
 ### Practical Activity added 09/04/2022 - 3.1.10
 ### Practical Activity added 10/04/2022 - 3.2.3
+### Practical Activity added 12/04/2022 - 3.2.5
+
+
+### Week 2 sub-practice and demonstration file (user-defined functions) added 12/04/2022 
