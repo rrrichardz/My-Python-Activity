@@ -23,7 +23,7 @@
 ### Week 2 core practice and demonstrations file added 04/04/2022
 
 # Week 3 files
-#### (Week 3 data files: movies_merge.xlsx, ott_merge.csv, oil_price.csv, gold_stocks_price.csv)
+#### (Week 3 data files: movies_merge.xlsx, ott_merge.csv, oil_price.csv, gold_stocks_price.csv, products.csv)
 ### Practical Activity added 08/04/2022 - 3.1.4
 ### Practical Activity added 08/04/2022 - 3.1.7
 ### Practical Activity added 09/04/2022 - 3.1.10
