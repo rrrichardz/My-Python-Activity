@@ -9,6 +9,7 @@
 ### My second code files added 27/03/2022 - Practical Activity 1.2.7
 ### Added another activity on 28/03/2022 - Practical Activity 1.3.5
 ### Peer review activity added 28/03/2022 - cleaning messy data not following PEP 8 guidelines
+### Week 1 core practice and demonstrations file added 29/03/2022
 
 # Week 2 files
 #### (Week 2 data files: gold_stocks_price.csv, movies.xlsx, oil_price.csv, ott.csv)
@@ -22,7 +23,7 @@
 ### Week 2 core practice and demonstrations file added 04/04/2022
 
 # Week 3 files
-#### (Week 3 data files: movies_merge.xlsx, ott_merge.csv, ...)
+#### (Week 3 data files: movies_merge.xlsx, ott_merge.csv, oil_price.csv, gold_stocks_price.csv)
 ### Practical Activity added 08/04/2022 - 3.1.4
 ### Practical Activity added 08/04/2022 - 3.1.7
 ### Practical Activity added 09/04/2022 - 3.1.10
