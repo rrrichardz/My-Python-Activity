@@ -1,8 +1,9 @@
 # My-Python-Activity
 # Uploaded core practice and playabout files (Jupyter Notebook and Python files) - General demonstration and practice/examples on Python (***keep updating***)
-### Week 1 practice files fully updated (in Week 1 folder)
-### Week 2 practice files fully updated (in Week 2 folder)
-### Uploading and updating Week 3 practice files
+### Week 1 practice files fully uploaded (in Week 1 folder)
+### Week 2 practice files fully uploaded (in Week 2 folder)
+### Week 3 practice fiels fully uploaded (in Week 3 folder)
+### Uploading and updating Week 4 practice files
 
 # Week 1 files
 ### My first code files added 26/03/2022 - Practical Activity 1.2.4
@@ -33,3 +34,8 @@
 ### Week 3 Challenge Activity added 13/04/2022
 ### Week 3 core practice and demonstrations file added 13/04/2022
 ### Week 3 sub-practice and demonstration file (user-defined functions) added 12/04/2022 
+
+# Week 4 files
+#### (Week 4 data files: movies.csv, ott.xlsx,)
+### Practical Activity added 18/04/2022 - 4.1.9
+### Practical Activity added 18/04/2022 - 4.1.12
