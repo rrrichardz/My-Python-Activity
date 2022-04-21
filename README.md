@@ -33,8 +33,6 @@
 ### Practical Activity added 12/04/2022 - 3.2.5
 ### Peer review activity 3.2.9 added 13/04/2022
 ### Week 3 Challenge Activity added 13/04/2022
-
-# Week 5 files
 ### Week 3 core practice and demonstrations file added 13/04/2022
 ### Week 3 sub-practice and demonstration file (user-defined functions) added 12/04/2022 
 
@@ -49,6 +47,6 @@
 ### Week 4 core practice and demonstrations file added 21/04/2022
 ### Week 4 sub-practice and demonstation file (Time-Series Plot with Seaborn) added 21/04/2022
 
-
+# Week 5 files
 
 
