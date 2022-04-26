@@ -4,7 +4,8 @@
 ### Week 2 practice files fully uploaded (in Week 2 folder)
 ### Week 3 practice files fully uploaded (in Week 3 folder)
 ### Week 4 practice files fully uploaded (in Week 4 folder)
-### Uploading and updating Week 5 practice files
+### Week 5 practice files fully uploaded (in Week 5 folder)
+### Uploading and updating Week 6 practice files
 
 # Week 1 files
 ### My first code files added 26/03/2022 - Practical Activity 1.2.4
@@ -57,7 +58,8 @@
 ### Week 5 core practice and demonstrations file added 26/04/2022
 ### Week 5 sub-practice and demonstration file (Twitter_API) added 24/04/2022
 
-
+# Week 6 files
+###
 
 
 
