@@ -61,6 +61,7 @@
 # Week 6 files
 #### (Week 6 data files: raw_sales.csv)
 ### Practical Activity added 27/04/2022 - 6.1.6
-
+### Practical Activity added 28/04/2022 - 6.1.8
+### Week 6 practice and demonstration file (time-series) added 28/04/2022
 
 
