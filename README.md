@@ -59,7 +59,8 @@
 ### Week 5 sub-practice and demonstration file (Twitter_API) added 24/04/2022
 
 # Week 6 files
-###
+#### (Week 6 data files: raw_sales.csv)
+### Practical Activity added 27/04/2022 - 6.1.
 
 
 
