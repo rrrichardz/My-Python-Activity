@@ -5,7 +5,7 @@
 ### Week 3 practice files fully uploaded (in Week 3 folder)
 ### Week 4 practice files fully uploaded (in Week 4 folder)
 ### Week 5 practice files fully uploaded (in Week 5 folder)
-### Uploading and updating Week 6 practice files
+### Week 6 practice files fully uploaded (in Week 6 folder)
 
 # Week 1 files
 ### My first code files added 26/03/2022 - Practical Activity 1.2.4
